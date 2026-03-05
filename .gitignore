@@ -1,49 +1,72 @@
-# Prerequisites
+**/build/
+
+Derleme ve Disk İmajları
+
+*.bin
+*.img
+*.dsk
+kernel.config
+
+Simülatör Logları ve Yapılandırmaları
+
+bochout.txt
+bochsrc.txt
+
+Prerequisites
+
 *.d
 
-# Object files
+Object files
+
 *.o
 *.ko
 *.obj
 *.elf
 
-# Linker output
+Linker output
+
 *.ilk
 *.map
 *.exp
 
-# Precompiled Headers
+Precompiled Headers
+
 *.gch
 *.pch
 
-# Libraries
+Libraries
+
 *.lib
 *.a
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+Shared objects (inc. Windows DLLs)
+
 *.dll
 *.so
-*.so.*
+.so.
 *.dylib
 
-# Executables
+Executables
+
 *.exe
 *.out
 *.app
-*.i*86
+.i86
 *.x86_64
 *.hex
 
-# Debug files
+Debug files
+
 *.dSYM/
 *.su
 *.idb
 *.pdb
 
-# Kernel Module Compile Results
-*.mod*
+Kernel Module Compile Results
+
+.mod
 *.cmd
 .tmp_versions/
 modules.order
@@ -51,5 +74,12 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
+debug information files
+
 *.dwo
+
+~
+##
+.#*
+.DS_Store
+Thumbs.db
